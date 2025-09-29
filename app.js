@@ -4,7 +4,7 @@ class ExpenseTracker {
         this.categories = [
             'Food', 'Transportation', 'Entertainment',
             'Shopping', 'Bills', 'Healthcare', 'Education', 'Other',
-            'Income','Rent' // added for income transactions
+            'Income','Rent' 
         ];
         this.initialize();
     }
