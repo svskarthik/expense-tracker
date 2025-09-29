@@ -53,7 +53,7 @@ class ExpenseTracker {
         let description = descriptionEl.value;
         let category = categoryEl.value;
 
-        // For income, automatically assign category
+        
         if (type === 'income') {
             category = 'Income';
         }
